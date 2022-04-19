@@ -1,0 +1,27 @@
+.header{
+    height: 100px;
+}
+.header li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: grey;
+    text-align: left;
+    margin-right: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    position: 0 auto;
+    padding: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+.header li:hover, .header a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
