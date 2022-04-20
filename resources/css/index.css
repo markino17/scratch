@@ -25,6 +25,9 @@ header{
     background-color: limegreen;
     color: azure;
 }
+#current {
+    color:red;
+}
 body{
     background-color: lightgray;
 }
