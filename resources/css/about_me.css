@@ -1,4 +1,4 @@
-header{
+nav{
     background-color: grey;
     height: 60px;
     position: fixed;
@@ -6,11 +6,9 @@ header{
     right:0px;
     left: 0px;
     width: 100%;
-}
-.header li{
-    display: inline-block;
-    font-size: 20px;
-    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .headlink{
     text-decoration: none;
@@ -31,24 +29,5 @@ header{
 body{
     background-color: lightgray;
 }
-/*intro div*/
-h1{
-    margin-top: 150px;
-    text-align: center;
-    font-size: 60px;
-}
-/*Soccer section*/
-#soccer{
-    color: red;
-    display: inline;
-    position: fixed;
-}
-/*Work section*/
-#work{
-    color: aqua;
-    display: inline;
-    position:relative;
-    margin-right: 10px;
-}
-/*Education*/
-/*Future*/
+
+
