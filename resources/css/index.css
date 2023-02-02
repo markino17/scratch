@@ -1,3 +1,7 @@
+body{
+    background-color: lightgray;
+    
+}
 nav{
     background-color: grey;
     height: 60px;
@@ -10,6 +14,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.numberone{
+    border: 1px dotted black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .headlink{
     text-decoration: none;
     border: 2px solid black;
@@ -19,6 +29,17 @@ nav{
     color: limegreen;
     font-weight: 600;
 }
+.bottom-menu{
+    
+    display: grid;
+    height: 300px;
+    width: 800px;
+    grid-template: 100% / 20% 20% 20% 20% 20%;
+    margin: 0 auto;
+}
+.box{
+    border: 1px dotted black;
+}
 .headlink:hover{
     background-color: limegreen;
     color: azure;
@@ -26,6 +47,4 @@ nav{
 #current {
     color:red;
 }
-body{
-    background-color: lightgray;
-}
+
