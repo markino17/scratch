@@ -37,9 +37,16 @@ nav{
     grid-template: 100% / 20% 20% 20% 20% 20%;
     margin: 0 auto;
 }
+.contact{
+    text-align: center;
+}
 .box{
     border: 1px dotted black;
+    align-items: center;
+    text-align: center;
+    
 }
+
 .headlink:hover{
     background-color: limegreen;
     color: azure;
